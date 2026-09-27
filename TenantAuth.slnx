@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Api/TenantAuth.Api.csproj" />
+    <Project Path="src/AppHost/TenantAuth.AppHost.csproj" />
+    <Project Path="src/Identity/TenantAuth.Identity.csproj" />
+    <Project Path="src/ServiceDefaults/TenantAuth.ServiceDefaults.csproj" />
+    <Project Path="src/Shared/TenantAuth.Shared.csproj" />
+    <Project Path="src/Web/TenantAuth.Web.csproj" />
+  </Folder>
+</Solution>

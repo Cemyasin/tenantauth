@@ -1,0 +1,20 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.5.4">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AspireUseCliBundle>true</AspireUseCliBundle>
+    <UserSecretsId>fb3eff96-01e0-4840-92fa-3fd50f241087</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.PostgreSQL" />
+    <PackageReference Include="Aspire.Hosting.Redis" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Identity\TenantAuth.Identity.csproj" />
+    <ProjectReference Include="..\Api\TenantAuth.Api.csproj" />
+    <ProjectReference Include="..\Web\TenantAuth.Web.csproj" />
+  </ItemGroup>
+
+</Project>
